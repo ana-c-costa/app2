@@ -1,0 +1,120 @@
+    /*usado para estilizar elementos escritos em uma linguagem de marcação como HTML.
+    O CSS separa o conteúdo da representação visual do site.*/
+
+body
+{
+    background-color: #D0E3F8;
+    width: 100%; /*largura*/
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;      
+}
+.cabecalho
+{
+    background-color: #87C6D4;
+    width: 100%; /*largura*/
+    height: 110px; /*altura*/
+    font-family: 'Bungee Shade', cursive;
+    display: flex;
+    flex-direction: row;
+}
+.meio
+{
+    background-color: white;
+    width: 1100px; /*largura*/
+    height: 500px; /*altura*/
+    margin-top: 95px;
+    align-items: center;
+    align-content: center; /*alinhar-conteúdo:*/
+    flex-direction: column;
+
+}
+.texto
+{
+    width: 600px; /*largura*/
+    height: 110px; /*altura*/   
+    font-size: 40px; /*tamanho da letra*/
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 25px;        
+}
+.texto2
+{
+    width: 150px; /*largura*/
+    height: 0px; /*altura*/
+    font-size: 18px; /*tamanho da letra*/
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: 'Caveat Brush', cursive;
+    
+}
+.texto3
+{
+    width: 500px; /*largura*/
+    height: 0px; /*altura*/
+    font-size: 18px; /*tamanho da letra*/
+    margin-top: 1px;
+    margin-left: 750px;
+    font-family: 'Caveat Brush', cursive;
+}
+.texto4
+{
+    width: 90px; /*largura*/
+    height: 25px; /*altura*/
+    font-size: 15px; /*tamanho da letra*/
+    margin-top: 75px;
+    margin-left: 55%;
+    font-family: 'Caveat Brush', cursive;
+}
+.texto5
+{
+    background-color: black;
+    width: 35px; /*largura*/
+    height: 20px; /*altura*/
+    font-size: 10px; /*tamanho da letra*/
+    margin-top: 5px;
+    margin-left: 45px;
+    font-family: 'Caveat Brush', cursive;
+}
+.pesquisa
+
+{
+    background-color: white;
+    width: 20%;/*largura*/
+    height: 40px;/*altura*/
+    margin-top: 2%;
+    margin-right: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;/*tamanho da letra*/
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.caixa
+{
+    border-style: none;
+    height: 30px;
+    width: 90%;
+    margin-left: 5%;
+}
+.frete
+{
+    width: 45px;/*largura*/
+    height: 30px;/*altura*/
+    margin-top: 90px;
+    margin-left: 55%;
+}
+.linha
+{
+    background-color: black;
+    width: 35%;/*largura*/
+    height: 2px;/*altura*/
+    margin-top: 120px;
+    margin-left: 40px;
+}
